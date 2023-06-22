@@ -1,0 +1,286 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+:root {
+  --color: rgb(74, 75, 155);
+}
+@media screen and (max-width: 768px) {
+  html {
+    background-color: rgb(245, 245, 248);
+    display: flex;
+    flex-direction: column;
+  }
+  .item1 {
+    font-size: 15px;
+  }
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  overflow-x: hidden;
+  /* background-image: url("./ERC.jpg");
+  background-size: cover;
+  height: 100vh;
+  width: 100vw; */
+}
+.nav1 {
+  position: sticky;
+  top: 0;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  background-color: rgb(74, 75, 155);
+  color: white;
+  justify-content: space-around;
+  /* background-image: url("./ERC.jpg");
+  background-size: cover;
+  height: 150vh;
+   width: 100vw */
+}
+.logo {
+  padding-top: 15px;
+  padding-left: 100px;
+  display: flex;
+  justify-content: center;
+}
+/* .search {
+  gap: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: grey;
+}
+.search input{
+    height: 20px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    border-color: black;
+}
+.search button{
+    text-height: 10px;
+    cursor: pointer;
+    border: 2px solid white;
+    border-radius: 0 5px 5px 0;
+    background-color: white;
+    color: black;
+} */
+.text-aces {
+  padding-left: 300px;
+  padding-top: 25px;
+  font-size: 20px;
+  width: 100%;
+  display: inline-flex;
+  -webkit-box-reflect: below -20px linear gradient(transparent, #3700ff2e);
+}
+.bounce span {
+  display: inline-flex;
+  color: #ffffff;
+  animation: bounce 1s infinite;
+}
+@keyframes bounce {
+  0%,
+  50%,
+  100% {
+    transform: translateY(0);
+  }
+  25% {
+    transform: translateY(-20px);
+  }
+}
+.ten span:nth-of-type(1) {
+  animation-delay: 0.1s;
+}
+.ten span:nth-of-type(2) {
+  animation-delay: 0.2s;
+}
+.ten span:nth-of-type(3) {
+  animation-delay: 0.3s;
+}
+.ten span:nth-of-type(4) {
+  animation-delay: 0.4s;
+}
+.ten span:nth-of-type(5) {
+  animation-delay: 0.5s;
+}
+.ten span:nth-of-type(6) {
+  animation-delay: 0.6s;
+}
+
+.section ul {
+  /* padding-right: 10px; */
+  list-style: none;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-top: 20px;
+}
+.section ul li a {
+  text-decoration: none;
+  width: 80px;
+  font-weight: bold;
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  color: #ffffff;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  transition: 0.4s all ease;
+}
+.section ul li a:hover {
+  color: rgb(255, 255, 255);
+  transform: 0.4s all ease;
+}
+.section ul li a::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: -5px;
+  left: 0;
+  background-color: #000000;
+  transform-origin: bottom right;
+  transition: transform 0.4s ease-out;
+}
+.section ul li a:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+.section ul button {
+  width: 103px;
+  padding: 10px;
+  background-color: var(--bg-color);
+  color: white;
+  margin: 0 10px;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 10px;
+  cursor: pointer;
+}
+.section ul button:hover {
+  background-color: grey;
+  color: white;
+}
+.section ul button {
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-weight: 500;
+  color: #000;
+  background-color: #fff;
+  border: none;
+  border-radius: 45px;
+  box-shadow: 0px 8px 15px;
+  color: rgba(0, 0, 0, 0.5);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+}
+.section ul button:hover {
+  background-color: #414745;
+  box-shadow: 0px 15px 20px;
+  color: rgba(46, 229, 157, 0.4);
+  color: #fff;
+  transform: translateY(-7px);
+}
+.section ul button:active {
+  transform: translateY(-1px);
+}
+#Home {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url(../external_resources/ERC.jpg);
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+  /* display: flex; */
+  color: white;
+  justify-content: center;
+  text-align: center;
+  text-align: center;
+  padding-top: 100px;
+  -webkit-text-stroke-width: 60%;
+}
+#Home h1 {
+  justify-content: center;
+  text-align: center;
+}
+#Home button {
+  cursor: pointer;
+  color: rgb(0, 0, 0);
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 15px;
+  font-weight: 500;
+  border: 2px solid rgb(0, 0, 0);
+  border-radius: 100px;
+  margin-top: 10px;
+  width: 150px;
+  height: 50px;
+  background-color: rgb(255, 255, 255);
+  transition: transform 0.2s;
+}
+#Home button:hover {
+  transform: scale(1.08);
+}
+.about1 {
+  height: 70vh;
+  display: block;
+  justify-content: center;
+  text-align: center;
+  border-left: 15px solid var(--color);
+  margin: 10px;
+  padding: 30px 40px 0 40px;
+  align-items: center;
+  background-color: rgb(212, 212, 212);
+}
+.about1 h1 {
+  font-size: 30px;
+}
+.about1 p {
+  align-items: center;
+  display: flex;
+  width: 50%;
+  text-align: center;
+  justify-content: center;
+}
+.features {
+  padding-top: 40px;
+  display: flex;
+  justify-content: space-around;
+  gap: 10px;
+  text-align: left;
+}
+
+.features1 p {
+  /* background-color: green; */
+  height: 100px;
+  width: 200px;
+  text-align: left;
+}
+.features2 p {
+  /* background-color: brown; */
+  height: 100px;
+  width: 200px;
+  text-align: left;
+}
+.features3 p {
+  /* background-color: cadetblue; */
+  height: 100px;
+  width: 200px;
+  text-align: left;
+}
+.features4 p {
+  /* background-color: chocolate; */
+  height: 100px;
+  width: 200px;
+  text-align: left;
+}
+.about2 {
+  background-color: blue;
+}
