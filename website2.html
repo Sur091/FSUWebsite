@@ -2,6 +2,11 @@
 <html lang="en">
   <head>
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/nav.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -9,9 +14,14 @@
   </head>
   <body>
     <nav class="nav1">
+      <div class="hamburger-menu">
+        <button class="hamburger-btn" onclick="toggleMenu()">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+      </div>
       <div class="logo">
         <a href=""
-          ><img src="./external_resources/aces_logo.png" height="50px"
+          ><img src="./external_resources/white_fsu_logo.png" 
         /></a>
       </div>
       <!-- <div class="search">
@@ -20,20 +30,16 @@
       </div> -->
       <div class="text-aces">
         <h2 class="bounce">
-          <span>A</span>
-          <span>C</span>
-          <span>E</span>
+          <span>F</span>
           <span>S</span>
+          <span>U</span>
         </h2>
       </div>
       <div class="section">
         <ul>
-          <li><a href="#Home">Home</a></li>
-          <li><a href="#About">About</a></li>
-          <li><a href="#Events">Events</a></li>
-          <li><a href="#Gallery">Gallery</a></li>
-          <button>Sign In</button>
-          <button>Sign Up</button>
+          <li><i class="fa-solid fa-magnifying-glass"></i></li>
+          <li><a href="#committee">Committee</a></li>
+          <li><a href="#feedback">Feedback</a></li>
         </ul>
       </div>
     </nav>
@@ -91,5 +97,6 @@
         div
       </div>
     </div>
+    <script src="js/script.js"></script>
   </body>
 </html>

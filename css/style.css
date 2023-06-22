@@ -31,20 +31,28 @@ body {
   top: 0;
   height: 70px;
   display: flex;
-  justify-content: center;
-  background-color: rgb(74, 75, 155);
+  /* justify-content: center; */
+  align-items: center;
+  /* background-color: rgb(74, 75, 155); */
+  background-color: var(--color);
   color: white;
-  justify-content: space-around;
+  /* justify-content: space-around; */
   /* background-image: url("./ERC.jpg");
   background-size: cover;
   height: 150vh;
    width: 100vw */
 }
 .logo {
-  padding-top: 15px;
-  padding-left: 100px;
+  /* padding-top: 5px; */
+  padding-left: 20px;  
   display: flex;
   justify-content: center;
+  /* position: relative; */
+
+}
+
+.logo img {
+  height: 60px;
 }
 /* .search {
   gap: 2px;
@@ -68,14 +76,16 @@ body {
     background-color: white;
     color: black;
 } */
+/* 
 .text-aces {
-  padding-left: 300px;
+  padding-left: 200px;
   padding-top: 25px;
   font-size: 20px;
   width: 100%;
   display: inline-flex;
   -webkit-box-reflect: below -20px linear gradient(transparent, #3700ff2e);
 }
+
 .bounce span {
   display: inline-flex;
   color: #ffffff;
@@ -108,6 +118,11 @@ body {
 }
 .ten span:nth-of-type(6) {
   animation-delay: 0.6s;
+} */
+
+.section {
+  position: relative;
+  left: 60%;
 }
 
 .section ul {
@@ -118,7 +133,7 @@ body {
   justify-content: center;
   align-items: center;
   text-align: center;
-  padding-top: 20px;
+  /* padding-top: 20px; */
 }
 .section ul li a {
   text-decoration: none;
@@ -199,12 +214,14 @@ body {
   background-size: cover;
   height: 100vh;
   width: 100vw;
-  /* display: flex; */
+  display: flex;
   color: white;
   justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  /* text-align: center; */
   text-align: center;
-  text-align: center;
-  padding-top: 100px;
+  /* padding-top: 100px; */
   -webkit-text-stroke-width: 60%;
 }
 #Home h1 {
@@ -235,7 +252,7 @@ body {
   text-align: center;
   border-left: 15px solid var(--color);
   margin: 10px;
-  padding: 30px 40px 0 40px;
+  padding: 0px 40px 0 40px;
   align-items: center;
   background-color: rgb(212, 212, 212);
 }
