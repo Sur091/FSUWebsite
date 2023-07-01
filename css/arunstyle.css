@@ -1,0 +1,88 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.collabsection{
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin: 15px;
+    box-sizing: border-box;
+    height: 100vh;
+    width: 95vw;
+    background-image: url(../external_resources/bg4.jpg);
+    background-size:1176px 473px;
+    background-repeat: no-repeat;
+    background-position: 20px 30px;
+}
+
+.maincontent{
+    padding: 20px;
+    margin: 5px;
+    box-sizing: border-box;
+    justify-items: center;
+
+}
+
+.button{
+    padding: 4px;
+    margin:3px;
+    display: flex;
+    box-sizing: border-box;
+    justify-content: right;
+    align-items: baseline;
+
+    
+}
+
+.button .button1{
+    margin-right:8px;
+    padding: 4px;
+    justify-content: right;
+    align-items: baseline;
+    
+    
+}
+
+.button .button2{
+    margin-right:5px;
+    padding: 4px;
+    justify-content: right;
+    align-items: baseline; 
+}
+
+.maincontent .content1{
+    margin-left: 25%;
+    padding: 10px;
+}
+
+
+.maincontent .content2{
+    margin-left: 25%;
+    padding: 10px;
+}
+
+.maincontent .content3{
+    margin-left: 25%;
+    padding: 10px;
+}
+
+.maincontent .content4{
+    margin-left: 25%;
+    padding: 10px;
+}
+
+.maincontent .content5{
+    margin-left: 1%;
+    padding: 10px;
+}
+
+.maincontent .content6{
+    margin-left: 25%;
+    padding: 10px;
+}
+
+.Heading{
+    background-color: aqua;
+}
