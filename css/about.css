@@ -1,0 +1,25 @@
+.about1 {
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    /* border-left: 15px solid var(--color); */
+    margin: 10px;
+    padding: 30px 40px 0 40px;
+    align-items: center;
+    background-color: rgb(212, 212, 212);
+  }
+  .about1 h1 {
+    font-size: 30px;
+  }
+  
+  .about1 p {
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 520;
+    font-size: 1rem;
+    padding: 70px 60px 10px 60px;
+    align-items: center; 
+    text-align: center;
+    justify-content: center;
+  }

@@ -3,6 +3,7 @@
   <head>
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="css/about.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
@@ -13,9 +14,9 @@
     <title>Document</title>
   </head>
   <body>
-    <nav class="nav1">
-      <div class="hamburger-menu">
-        <button class="hamburger-btn" onclick="toggleMenu()">
+    <nav class="nav1" >
+      <div class="hamburger-menu" >
+        <button class="hamburger-btn" onmouseover="showToggleMenu()">
           <i class="fa-solid fa-bars"></i>
         </button>
       </div>
@@ -43,21 +44,41 @@
         </ul>
       </div>
       <div class="controls">
-        <div class="control control-1 active-btn" data-id="home">
-            <i class="fa-solid fa-house"></i>
+        <div class="control control-1 active-btn" data-id="home-icon">
+          <a href="#Home"><i class="fa-solid fa-house"></i></a>
         </div>
-        <div class="control control-2" data-id="about">
-            <i class="fa-solid fa-user"></i>
+        <div class="control control-2" data-id="contacts">
+          <a href="#Contacts"><i class="fa-solid fa-user"></i></a>
         </div>
-        <div class="control control-3" data-id="portfolio">
-            <i class="fa-solid fa-briefcase"></i>
+        <div class="control control-3" data-id="news">
+          <a href="#News"><i class="fa-solid fa-newspaper"></i></a>
         </div>
-        <div class="control control-4" data-id="blogs">
-            <i class="fa-solid fa-newspaper"></i>
+        <div class="control control-4" data-id="projects">
+          <a href="#Projects"><i class="fa-sharp fa-solid fa-bars-progress"></i></a>
         </div>
         <div class="control control-5" data-id="contacts">
-            <i class="fa-solid fa-envelope-open"></i>
+          <a href="#About"> <i class="fa-solid fa-envelope-open"></i> </a>
         </div>
+      
+      </div>
+      <!-- <div class="close-menu" onmouseout="closeToggleMenu()"></div> -->
+      <div class="toggle-nav hide" id="toggle-nav">
+        <div class="text-controls">
+          <div class="text-control control-1 active-text">
+            Home
+          </div>
+          <div class="text-control control-2">
+            Contacts
+          </div>
+          <div class="text-control control-3">
+            News
+          </div>
+          <div class="text-control control-4">
+            Project
+          </div>
+          <div class="text-control control-5">
+            About Us</div>
+          </div>
       </div>
     </nav>
     <div class="photo" id="Home">
@@ -69,49 +90,99 @@
       </div>
       <a href="https://www.youtube.com/"><button>Join Us</button></a>
     </div>
+    <div class="member-list" id="committee">
+      <div class="member">
+        <div class="member-photo">
+          <img src="external_resources/Nabin Shrestha.jpg" alt="Nabin Shrestha">
+        </div>
+        <div class="member-details">
+          <h3>Nabin Shrestha</h3>
+          <p class="position">President</p>
+          <!-- Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, repudiandae! -->
+          <div class="reach-out">
+            <i class="fa-solid fa-envelope"></i>  075bag017@ioepc.edu.np <br/>
+            <i class="fa-solid fa-phone"></i>  9804368740
+          </div>
+        </div>
+      </div>
+      
+      <div class="member">
+        <div class="member-photo">
+          <img src="external_resources/Saugat Bhattarai.jpg" alt="Saugat Bhattarai">
+        </div>
+        <div class="member-details">
+          <h3>Saugat Bhattarai</h3>
+          <p class="position">Vice-President</p>
+          <div class="reach-out">
+            <i class="fa-solid fa-envelope"></i>   000zzz000@ioepc.edu.np<br/>
+            <i class="fa-solid fa-phone"></i>   5555555555
+          </div>
+        </div>
+      </div>
+      
+      <div class="member">
+        <div class="member-photo">
+          <img src="external_resources/Rajan Kumar Yadav.jpg" alt="Rajan Kumar Yadav">
+        </div>
+        <div class="member-details">
+          <h3>Rajan Kumar Yadav</h3>
+          <p class="position">Secretary</p>
+          <div class="reach-out">
+            <i class="fa-solid fa-envelope"></i>   000zzz000@ioepc.edu.np<br/>
+            <i class="fa-solid fa-phone"></i>   5555555555
+          </div>
+        </div>
+      </div>
+
+      <div class="member">
+        <div class="member-photo">
+          <img src="external_resources/alternate.avif" alt="Manohar Kumar Singh">
+        </div>
+        <div class="member-details">
+          <h3>Manohar Kumar Singh</h3>
+          <p class="position">Vice-Secretary</p>
+          <div class="reach-out">
+            <i class="fa-solid fa-envelope"></i>   000zzz000@ioepc.edu.np<br/>
+            <i class="fa-solid fa-phone"></i>   5555555555
+          </div>
+        </div>
+      </div>
+
+      <div class="member">
+        <div class="member-photo">
+          <img src="external_resources/Maheshwar Prasad Bhatt.jpg" alt="Maheshwar Prasad Bhatt">
+        </div>
+        <div class="member-details">
+          <h3>Maheshwar Prasad Bhatt</h3>
+          <p class="position">Treasurer</p>
+          <div class="reach-out">
+            <i class="fa-solid fa-envelope"></i>  076bct045@ioepc.edu.np<br/>
+            <i class="fa-solid fa-phone"></i>  9868877403 
+          </div>
+        </div>
+      </div>
+
+      <div class="member">
+        <div class="member-photo">
+          <img src="external_resources/Aaysuh Karki.jpg" alt="Aayush Karki">
+        </div>
+        <div class="member-details">
+          <h3>Aayush Karki</h3>
+          <p class="position">Position: Member</p>
+          <div class="reach-out">
+            <i class="fa-solid fa-envelope"></i>  077bel003@ioepc.edu.np<br/>
+            <i class="fa-solid fa-phone"></i>  9869849963
+          </div>
+        </div>
+      </div>
+    </div>
+    
     <div class="main" id="About">
       <div class="about1">
         <h1>ABOUT US</h1>
         <p>
-          “Student Society” ACES is a Community of Computer Engineering Students
-          established in 2070 B.S with an aim of all round development of
-          students and build a better foundation for their carrier.
+          "The Free Student Union (FSU) is a student organization that works to promote and protect the rights and welfare of students.We have been instrumental in raising awareness about issues affecting students, such as the quality of education, affordability, and accessibility. We have also been involved in organizing cultural and extracurricular activities, fostering a sense of unity among students, and promoting social and academic engagement."
         </p>
-
-        <div class="features">
-          <div class="features1">
-            <h1>Training</h1>
-            <p>
-              We provide training to students from 1st to 4th year of Bachelors
-              in Computer Engineering.
-            </p>
-          </div>
-          <div class="features2">
-            <h1>Competition</h1>
-            <p>
-              We organize various competitions for students to enhance their
-              skills and knowledge.
-            </p>
-          </div>
-          <div class="features3">
-            <h1>Podcast</h1>
-            <p>
-              We organize podcast sessions with experts in technical field for
-              students .
-            </p>
-          </div>
-          <div class="features4">
-            <h1>Techfest</h1>
-            <p>
-              We organize Techfest every year for students to showcase their
-              skills.
-            </p>
-          </div>
-        </div>
-      </div>
-      <div class="about2">
-        <h1>Our Services</h1>
-        div
       </div>
     </div>
     <script src="js/script.js"></script>
