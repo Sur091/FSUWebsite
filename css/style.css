@@ -135,7 +135,9 @@ body {
   transition: 0.4s all ease;
 }
 .section ul li a:hover {
-  color: rgb(255, 255, 255);
+  /* color: rgb(255, 255, 255); */
+  color: gray;
+ 
   transform: 0.4s all ease;
 }
 .section ul li a::after {
@@ -229,11 +231,11 @@ body {
   transform: scale(1.08);
 }
 .about1 {
-  height: 70vh;
+  height: 90vh;
   display: block;
   justify-content: center;
   text-align: center;
-  border-left: 15px solid var(--color);
+  border-left: 15px;
   margin: 10px;
   padding: 30px 40px 0 40px;
   align-items: center;
@@ -283,4 +285,143 @@ body {
 }
 .about2 {
   background-color: blue;
+}
+
+.project1{
+  height: 100%;
+  display: block;
+  justify-content: center;
+  text-align: center;
+  margin: 10px;
+  padding: 30px 40px 0 40px;
+  align-items: center;
+  background-color:rgb(0, 0, 0);
+  color: aqua;
+
+}
+.project1 p{
+  margin-top: 6px;
+  color: rgb(255, 255, 255);
+  text-align: left;
+}
+.project1 ul {
+  
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  list-style: none;
+  height: 450px;
+  color: lightgray;
+
+}
+.project1 ul li{
+  margin: 30px;
+  margin-top: 20px;
+  background-color: rgb(18, 23, 88);
+  box-sizing: border-box;
+  border-radius: 15px;
+  
+  width: 240px;
+  height: 386px;
+}
+.project1 ul li img{
+  border-radius: 100%;
+  margin: 5PX;
+  padding: 6PX;
+}
+.project1 ul li h1{
+  color: lightgreen;
+  font-weight: normal;
+  font-size: large;
+  font-family: math;
+  margin: 10px;
+  padding: 1px;
+}
+.project1 ul li p{
+  color: lightgray;
+  padding: 6px;
+  FONT-SIZE: revert;
+  FONT-FAMILY: ui-monospace;
+  FONT-WEIGHT: inherit;
+  MARGIN: 10PX;
+  padding: 3px;
+}
+.project1 h1:hover{
+  color: gray;
+}
+.News1{
+  background-color: rgb(31, 31, 66);
+  color: aliceblue;
+  height: 100%;
+  display: block;  
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 10px;
+ 
+
+}
+.News1 h1:hover{
+  color: gray;
+}
+.News1 h1{
+  justify-content: center;
+  display: flex;
+  align-items: center;
+   
+
+}
+.News1 p{
+ margin: 8px;
+ margin-left: 30px;
+}
+.News1 ul{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  padding: 0px 98px 0px 146px;
+  MARGIN: 6PX 33PX 8PX 60PX;
+  list-style: none;
+
+
+}
+.News1 ul li{
+  margin: 60px;
+  padding-right: 40px;
+
+}
+.News1 ul li img{
+  border-radius: 100%;
+  margin: -6px;
+  margin-right: 75px;
+
+  padding: 4px;
+
+}
+.News1 ul li h1{
+  color: lightyellow;
+  margin: 2px;
+  padding: 2px;
+  padding-right: 160px;
+  padding-left: 70px;
+
+}
+.News1 ul li p{
+  margin: 2px;
+  padding: 2px;
+}
+.notice p{
+     margin: -6px;
+    padding: 0px;
+    margin-left: 14px;
+}
+
+.notice select{
+  padding: 2px;
+  margin: 10px;
+  margin-bottom: 14px;
+  border-radius: 10px;
+  text-align: center;
+  font-size: medium;
 }
