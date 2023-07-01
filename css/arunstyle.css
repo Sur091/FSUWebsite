@@ -3,6 +3,7 @@
     margin: 0px;
     box-sizing: border-box;
     outline: none;
+    
 }
 fieldset{
     width: 1150px;
@@ -16,7 +17,7 @@ fieldset{
     height: 100vh;
     width: 95vw;
     background-image: url(../external_resources/bg4.jpg);
-    background-size:1150px 506px;
+    background-size:1100px 506px;
     background-repeat: no-repeat;
     background-position: 20px 30px;
 }
@@ -232,7 +233,7 @@ fieldset{
     padding: 10px;
   }
   
-  p {
+  .container p {
     margin: 0;
     font-size: 14px;
     color: #888;

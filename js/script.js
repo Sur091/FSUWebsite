@@ -6,6 +6,8 @@ const text = document.querySelectorAll(".text-control")
 const toggle_nav = document.getElementById("toggle-nav")
 console.log(toggle_nav.classList);
 
+
+
 function showToggleMenu() {
     console.log
     document.addEventListener('mousemove', (e) => {

@@ -39,7 +39,13 @@
       </div>
       <div class="section">
         <ul>
-          <li><i class="fa-solid fa-magnifying-glass"></i></li>
+          <li>
+            <div class="search-container">
+              <input type="text" placeholder="Search">
+              <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+            </div>
+          </li>
+          
           <li><a href="#committee">Committee</a></li>
           <li><a href="#feedback">Feedback</a></li>
         </ul>
@@ -49,13 +55,13 @@
           <a href="#Home"><i class="fa-solid fa-house"></i></a>
         </div>
         <div class="control control-2" data-id="contacts">
-          <a href="#Contacts"><i class="fa-solid fa-user"></i></a>
-        </div>
-        <div class="control control-3" data-id="news">
-          <a href="#News"><i class="fa-solid fa-newspaper"></i></a>
+          <a href="#Committee"><i class="fa-solid fa-user"></i></a>
         </div>
         <div class="control control-4" data-id="projects">
           <a href="#Projects"><i class="fa-sharp fa-solid fa-bars-progress"></i></a>
+        </div>
+        <div class="control control-3" data-id="news">
+          <a href="#News"><i class="fa-solid fa-newspaper"></i></a>
         </div>
         <div class="control control-5" data-id="contacts">
           <a href="#About"> <i class="fa-solid fa-envelope-open"></i> </a>
@@ -69,13 +75,13 @@
             Home
           </div>
           <div class="text-control control-2">
-            Contacts
+            Members
           </div>
           <div class="text-control control-3">
-            News
+            Projects
           </div>
           <div class="text-control control-4">
-            Project
+            News
           </div>
           <div class="text-control control-5">
             About Us</div>
@@ -91,7 +97,7 @@
       </div>
       <a href="https://www.facebook.com/fsu.ioeerc" target="_blank"><button>Join Us</button></a>
     </div>
-    <div class="member-list" id="committee">
+    <div class="member-list" id="Committee">
       <div class="member">
         <div class="member-photo">
           <img src="external_resources/Nabin Shrestha.jpg" alt="Nabin Shrestha">
@@ -193,7 +199,7 @@
       
       </div> -->
    <header>
-      <div class="mainProject" id="Project">
+      <div class="mainProject" id="Projects">
         <div class="project1">
           <h1>PROJECT</h1>
           <p>Unity is strength....<br>when there is teamwork & collaboration, wonderful<br> things can be achieved.</p>
@@ -211,7 +217,7 @@
       <div class="mainNews" id="News">
         <div class="News1">
           <h1>NEWS</h1>
-          <p>Hurry up!! comming soon.....</p>
+          <p>Hurry up!! comming soon...</p>
           <div class="news">
             <ul>
               <li><img src="projct4.jpg" height="150px" width="150px" alt="webinar"><h1>WEBINAR</h1><p>Webinar on cyber security of Nepal and <br>current bug bounty trends in Nepal.</p></li>
@@ -226,11 +232,11 @@
     
     <div class="collabsection">
       <form>
-        <fieldset>
-          <legend align="center" class="Heading">
+        <fieldset >
+          <legend align="center" class="Heading"  >
             <b><u>Collaboration Request Form</u></b>
           </legend>
-          <div class="maincontent">
+          <div class="maincontent" id="colabField">
             <div class="content1">
               <label for="">Name / Organization's Name: </label>
               <input type="text" placeholder=" Enter Name" required />
@@ -279,7 +285,7 @@
     <div class="main" id="About">
       <div class="about1">
         <h1>ABOUT US</h1>
-        <p>
+        <p >
           "The Free Student Union (FSU) is a student organization that works to promote and protect the rights and welfare of students.We have been instrumental in raising awareness about issues affecting students, such as the quality of education, affordability, and accessibility. We have also been involved in organizing cultural and extracurricular activities, fostering a sense of unity among students, and promoting social and academic engagement."
         </p>
       </div>

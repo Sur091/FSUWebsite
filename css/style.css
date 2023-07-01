@@ -122,7 +122,30 @@ body {
 
 .section {
   position: relative;
-  left: 60%;
+  left: 45%;
+}
+.search-container{
+  background-color: white;
+  color: black;
+  border-radius: 10px 10px 10px 10px;
+  height: 2rem;
+  display: flex;
+  padding-left: 10px;
+  justify-content: center;
+}
+
+.search-container input { 
+  border: 0;
+}
+
+.search-container button {
+  width: 1rem;
+  height: 1rem;
+  font-size: 0.8rem;
+  border: 0;
+  margin-top: 0.5rem;
+  background-color: white;
+  margin-right: 5px;
 }
 
 .section ul {
@@ -149,12 +172,7 @@ body {
   color: white;
   transition: 0.4s all ease;
 }
-.section ul li a:hover {
-  /* color: rgb(255, 255, 255); */
-  color: gray;
- 
-  transform: 0.4s all ease;
-}
+
 .section ul li a::after {
   content: "";
   position: absolute;
@@ -171,45 +189,10 @@ body {
   transform: scaleX(1);
   transform-origin: bottom left;
 }
-.section ul button {
-  width: 103px;
-  padding: 10px;
-  background-color: var(--bg-color);
-  color: white;
-  margin: 0 10px;
-  border: 1px solid rgba(255, 255, 255, 0.5);
-  border-radius: 10px;
-  cursor: pointer;
-}
-.section ul button:hover {
-  background-color: grey;
-  color: white;
-}
-.section ul button {
-  font-size: 13px;
-  text-transform: uppercase;
-  letter-spacing: 3px;
-  font-weight: 500;
-  color: #000;
-  background-color: #fff;
-  border: none;
-  border-radius: 45px;
-  box-shadow: 0px 8px 15px;
-  color: rgba(0, 0, 0, 0.5);
-  transition: all 0.3s ease 0s;
-  cursor: pointer;
-  outline: none;
-}
-.section ul button:hover {
-  background-color: #414745;
-  box-shadow: 0px 15px 20px;
-  color: rgba(46, 229, 157, 0.4);
-  color: #fff;
-  transform: translateY(-7px);
-}
-.section ul button:active {
-  transform: translateY(-1px);
-}
+
+
+
+
 #Home {
   background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
     url(../external_resources/ERC.jpg);
@@ -330,8 +313,12 @@ body {
  
 
 }
-.News1 h1:hover{
+
+#News {
+  border-right: 10px solid green;
+  width: 1220px;
 }
+
 .News1 h1{
   justify-content: center;
   display: flex;
