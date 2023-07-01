@@ -258,51 +258,7 @@ body {
   align-items: center;
   background-color: rgb(212, 212, 212);
 }
-.about1 h1 {
-  font-size: 30px;
-}
-.about1 p {
-  align-items: center;
-  display: flex;
-  width: 50%;
-  text-align: center;
-  justify-content: center;
-}
-.features {
-  padding-top: 40px;
-  display: flex;
-  justify-content: space-around;
-  gap: 10px;
-  text-align: left;
-}
 
-.features1 p {
-  /* background-color: green; */
-  height: 100px;
-  width: 200px;
-  text-align: left;
-}
-.features2 p {
-  /* background-color: brown; */
-  height: 100px;
-  width: 200px;
-  text-align: left;
-}
-.features3 p {
-  /* background-color: cadetblue; */
-  height: 100px;
-  width: 200px;
-  text-align: left;
-}
-.features4 p {
-  /* background-color: chocolate; */
-  height: 100px;
-  width: 200px;
-  text-align: left;
-}
-.about2 {
-  background-color: blue;
-}
 
 .project1{
   height: 100%;
