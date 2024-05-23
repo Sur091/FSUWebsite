@@ -1,24 +1,30 @@
 .about1 {
-    height: 70vh;
+    box-sizing: border-box;
+    height: 40vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     text-align: center;
     /* border-left: 15px solid var(--color); */
     margin: 10px;
-    padding: 30px 40px 0 40px;
+    padding: 10px;
     align-items: center;
     background-color: rgb(212, 212, 212);
   }
   .about1 h1 {
     font-size: 30px;
+    box-sizing: border-box;
+    margin: 0px;
+
   }
   
   .about1 p {
+    box-sizing: border-box;
     font-family: 'Exo 2', sans-serif;
     font-weight: 520;
     font-size: 1rem;
-    padding: 70px 60px 10px 60px;
+    margin: 0px;
+    padding: 10px;
     align-items: center; 
     text-align: center;
     justify-content: center;
